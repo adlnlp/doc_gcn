@@ -22,7 +22,7 @@ The first type is gap distance based of including apprearance and density graphs
 Another type is the parent-child relation based. If two segments have parent-child relation, the edge value is set to be 1, otherwise 0. The graph construction workflow can be found in below graphs. More detailed information can be found in our paper. 
 <p align="center"><img src="figures/semantic_syntactic_drawing.png" width="650" /></p>
 
-## Classification
+## Classifier
 
 ## Results
 
