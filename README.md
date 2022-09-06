@@ -14,6 +14,7 @@ Before feeding into various graphs to get enhanced feature representation, some 
 
 ### Acquire Multi-aspect Features
 __Visual Feature (Node)__
+
 __Textual Feature (Node)__
 
 __Density Feature (Node)__
