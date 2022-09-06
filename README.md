@@ -15,16 +15,16 @@ Before feeding into various graphs to get enhanced feature representation, some 
 ### Feature Extractors
 
 ### Desired Json or Pickle file farmat for feeding into GCN
-Before you want to train or use the pre-trained gcn to get multi-aspect feature representations, you need to ensure the input files follow the example structure. We will provide a official file format convertor later.
+Before you want to train or use the pre-trained GCN to get multi-aspect feature representations, you need to ensure the input files follow the example structure. We will provide an official file format converter later.
 
 ## Graph Construction
-Generally, the constructed graphs can be divided into two types. 
+Generally, the constructed graphs can be divided into two types based on diverse edge features.
 
-### Appearance and Density Graphs
+### Appearance and Density Graphs (Gap-distance Weighted)
 The first type is gap distance based of including apprearance and density graphs of which edge features is the inverse of the nearest-top k segments. Node features of this type are visual and density features of each segment, repectively. 
 <p align="center"><img src="figures/syn_sem_graph.png" width="650" /></p>
 
-### Semantic and Syntactic Graphs
+### Semantic and Syntactic Graphs (Parent-Child based)
 Another type is the parent-child relation based. If two segments have parent-child relation, the edge value is set to be 1, otherwise 0. The graph construction workflow can be found in below graphs. More detailed information can be found in our paper. 
 <p align="center"><img src="figures/semantic_syntactic_drawing.png" width="650" /></p>
 
