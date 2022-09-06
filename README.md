@@ -16,11 +16,11 @@ Generally, the constructed graphs can be divided into two types.
 
 ### Appearance and Density Graphs
 The first type is gap distance based of including apprearance and density graphs of which edge features is the inverse of the nearest-top k segments. Node features of this type are visual and density features of each segment, repectively. 
-<p align="center"><img src="figures/syn_sem_graph.png" width="750" /></p>
+<p align="center"><img src="figures/syn_sem_graph.png" width="650" /></p>
 
 ### Semantic and Syntactic Graphs
 Another type is the parent-child relation based. If two segments have parent-child relation, the edge value is set to be 1, otherwise 0. The graph construction workflow can be found in below graphs. More detailed information can be found in our paper. 
-<p align="center"><img src="figures/semantic_syntactic_drawing.png" width="750" /></p>
+<p align="center"><img src="figures/semantic_syntactic_drawing.png" width="650" /></p>
 
 ## Classification
 
