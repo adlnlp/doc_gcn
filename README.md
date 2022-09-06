@@ -14,7 +14,7 @@ Before feeding into various graphs to get enhanced feature representation, some 
 
 ### Feature Extractors
 
-### Desired Json or Pickle file for feeding into GCN
+### Desired Json or Pickle file farmat for feeding into GCN
 
 ## Graph Construction
 Generally, the constructed graphs can be divided into two types. 
