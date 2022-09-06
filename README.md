@@ -12,7 +12,18 @@ This paper uses three widely used benchmark datasets, including [FUNSD](https://
 
 Before feeding into various graphs to get enhanced feature representation, some preprocessing procedures are required to generate multi-aspect feature representations. Detailed procedure please refer [here](https://github.com/adlnlp/doc_gcn/tree/main/preprocessing).
 
-### Feature Extractors
+### Acquire Multi-aspect Features
+#### Visual Feature (Node)
+
+#### Textual Feature (Node)
+
+#### Density Feature (Node)
+
+#### Syntactic Feature (Node)
+
+#### Parent Child Relation (Edge)
+
+#### Gap Distance (Edge)
 
 ### Desired Json or Pickle file farmat for feeding into GCN
 Before you want to train or use the pre-trained GCN to get multi-aspect feature representations, you need to ensure the input files follow the example structure. We will provide an official file format converter later.
