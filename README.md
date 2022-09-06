@@ -3,4 +3,4 @@ Layout Analysis
 This repository contains code for the paper Doc-GCN: Heterogeneous Graph Convolutional Networks for Document
 Layout Analysis. 
 
-<p align="center">**Siwen Luo*, Yihao Ding*, Siqu Long, Soyeon Caren Han, Josiah Poon**</p>
+<p align="center">__Siwen Luo*, Yihao Ding*, Siqu Long, Soyeon Caren Han, Josiah Poon__</p>
