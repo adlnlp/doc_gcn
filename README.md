@@ -7,7 +7,7 @@ __<p align="center">Siwen Luo*, Yihao Ding*, Siqu Long, Soyeon Caren Han, Josiah
 ![name](figures/doc_gcn.png)
 
 ## Dataset Prepare
-
+In this paper, we use
 ## Graph Construction
 
 ## Classification
