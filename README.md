@@ -15,7 +15,7 @@ Before feeding into various graphs to get enhanced feature representation, some 
 ### Feature Extractors
 
 ### Desired Json or Pickle file farmat for feeding into GCN
-Before you want to train or use the pre-trained gcn to get multi-aspect feature representations, you need to ensure the input files follow the example structure.
+Before you want to train or use the pre-trained gcn to get multi-aspect feature representations, you need to ensure the input files follow the example structure. We will provide a official file format convertor later.
 
 ## Graph Construction
 Generally, the constructed graphs can be divided into two types. 
