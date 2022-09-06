@@ -5,3 +5,9 @@ Layout Analysis.](https://arxiv.org/abs/2208.10970)
 
 __<p align="center">Siwen Luo*, Yihao Ding*, Siqu Long, Soyeon Caren Han, Josiah Poon</p>__
 ![name](figures/doc_gcn.png)
+## Graph Construction
+
+## Classification
+
+## Case Study
+
