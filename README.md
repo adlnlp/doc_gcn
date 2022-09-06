@@ -4,3 +4,4 @@ This repository contains code for the paper Doc-GCN: Heterogeneous Graph Convolu
 Layout Analysis. 
 
 __<p align="center">Siwen Luo*, Yihao Ding*, Siqu Long, Soyeon Caren Han, Josiah Poon</p>__
+![name](figures/doc_gcn.png)
