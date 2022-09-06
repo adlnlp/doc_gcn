@@ -11,7 +11,11 @@ This paper uses three widely used benchmark datasets, including [FUNSD](https://
 
 Before feeding into various graphs to get enhanced feature representation, some preprocessing procedures are required to generate multi-aspect feature representations. Detailed procedure please refer [here](https://github.com/adlnlp/doc_gcn/tree/main/preprocessing).
 ## Graph Construction
-Generally, the constructed graphs can be divided into two types. The first type is gap distance based of which edge features is the inverse of the nearest-top k segments. Node features of this type are visual and density features of each segment, repectively. Another type is the parent-child relation based. If two segments have parent-child relation, the edge value is set to be 1, otherwise 0. The graph construction workflow can be found in below graphs. More detailed information can be found in our paper. 
+Generally, the constructed graphs can be divided into two types. 
+
+The first type is gap distance based of including apprearance and density graphs of which edge features is the inverse of the nearest-top k segments. Node features of this type are visual and density features of each segment, repectively. 
+
+Another type is the parent-child relation based. If two segments have parent-child relation, the edge value is set to be 1, otherwise 0. The graph construction workflow can be found in below graphs. More detailed information can be found in our paper. 
 
 ## Classification
 
