@@ -27,8 +27,6 @@ __Parent Child Relation (Edge)__
 
 __Gap Distance (Edge)__
 
-### Desired Json or Pickle file farmat for feeding into GCN
-Before you want to train or use the pre-trained GCN to get multi-aspect feature representations, you need to ensure the input files follow the example structure. We will provide an official file format converter later.
 
 ## Graph Construction
 Generally, the constructed graphs can be divided into two types based on diverse edge features.
