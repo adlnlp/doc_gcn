@@ -14,6 +14,7 @@ Before feeding into various graphs to get enhanced feature representation, some 
 
 ### Acquire Multi-aspect Features
 We provide a tutorial google colab .ipynb file to show how to generate an appropriate json file for feeding into GCNs. We will use FUNSD dataset as an example.
+
 __Visual Feature (Node)__
 
 __Textual Feature (Node)__
