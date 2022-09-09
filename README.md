@@ -27,9 +27,10 @@ Another type is the parent-child relation based (see [example](https://colab.res
 <p align="center"><img src="figures/semantic_syntactic_drawing.png" width="650" /></p>
 
 ## Classifier
-After get the enhance the feature representations, we feed them into [our model]() for training and testing. We also provide an [ipynb notebook](https://colab.research.google.com/drive/1FMSKWDok9eHNZXSkSAMJDpjijUgB-lvj) to show how it works on FUNSD dataset. 
+After get the enhance the feature representations, we feed them into [our model]() for training and testing. We also provide an [ipynb notebook](https://colab.research.google.com/drive/1FMSKWDok9eHNZXSkSAMJDpjijUgB-lvj) to show how it works on FUNSD dataset. Please refer DocGCN paper to get more detailed description about our classifier.
 
 ## Evaluation Results
+DocGCN can achieve SoTA performance based on considerable experiments compared with other baselines. 
 
 ## Case Study
 
