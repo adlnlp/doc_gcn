@@ -28,7 +28,7 @@ Another type is the parent-child relation based. If two segments have parent-chi
 
 ## Classifier
 
-## Results
+## Evaluation
 
 ## Case Study
 
