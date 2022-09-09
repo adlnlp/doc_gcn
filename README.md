@@ -23,7 +23,7 @@ The first type is gap distance based of including apprearance and density graphs
 <p align="center"><img src="figures/syn_sem_graph.png" width="650" /></p>
 
 ### Semantic and Syntactic Graphs (Parent-Child based)
-Another type is the parent-child relation based. If two segments have parent-child relation, the edge value is set to be 1, otherwise 0. The graph construction workflow can be found in below graphs. More detailed information can be found in our paper. 
+Another type is the parent-child relation based (see [example](https://colab.research.google.com/drive/1iVtiGn6UlOAbNsZcpYK8J7tjUaENJ3_I#scrollTo=8U8p1tSiwIYR) on FUNSD dataset). If two segments have parent-child relation, the edge value is set to be 1, otherwise 0. The graph construction workflow can be found in below graphs. More detailed information can be found in our paper. 
 <p align="center"><img src="figures/semantic_syntactic_drawing.png" width="650" /></p>
 
 ## Classifier
