@@ -27,7 +27,7 @@ Another type is the parent-child relation based. If two segments have parent-chi
 <p align="center"><img src="figures/semantic_syntactic_drawing.png" width="650" /></p>
 
 ## Classifier
-After get the enhance the feature representations, we feed them into [our model]() for training and testing. We also provide an [ipynb notebook]() to show how it works on FUNSD dataset. 
+After get the enhance the feature representations, we feed them into [our model](https://colab.research.google.com/drive/1FMSKWDok9eHNZXSkSAMJDpjijUgB-lvj) for training and testing. We also provide an [ipynb notebook]() to show how it works on FUNSD dataset. 
 
 ## Evaluation Results
 
