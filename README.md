@@ -33,7 +33,7 @@ After get the enhance the feature representations, we feed them into [our model]
 DocGCN can achieve SoTA performance based on considerable experiments compared with other baselines. Here we just show the overall performance on three benchmark datasets, more results analysis and ablation studies can be found in Section 5 and Appendix A of our [paper](https://arxiv.org/abs/2208.10970) 
 <p align="center"><img src="figures/doc_gcn_main_results.png" width="450" /></p>
 
-The overall performances of our model compared to the baselines on test set in Precision rate (%), Recall rate (%) and F1 score (%). The second best is underlined.
+The overall performances of DocGCN compared to the baselines on test set in Precision rate (%), Recall rate (%) and F1 score (%). The second best is underlined. Our DocGCN can achieve highest performance among all benchmark datasets and evaluation metrics. 
 
 ## Case Study
 
