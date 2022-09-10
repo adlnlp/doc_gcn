@@ -30,7 +30,7 @@ Another type is the parent-child relation based (see [example](https://colab.res
 After get the enhance the feature representations, we feed them into [our model]() for training and testing. We also provide an [ipynb notebook](https://colab.research.google.com/drive/1FMSKWDok9eHNZXSkSAMJDpjijUgB-lvj) to show how it works on FUNSD dataset. Please refer DocGCN paper to get more detailed description about our classifier.
 
 ## Evaluation Results
-DocGCN can achieve SoTA performance based on considerable experiments compared with other baselines. 
+DocGCN can achieve SoTA performance based on considerable experiments compared with other baselines. Here we just show the overall performance on three benchmark datasets, more results analysis and ablation studies can be found in Section 5 and Appendix A of our [paper](https://arxiv.org/abs/2208.10970) 
 
 ## Case Study
 
