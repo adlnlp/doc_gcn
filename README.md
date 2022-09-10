@@ -36,4 +36,6 @@ DocGCN can achieve SoTA performance based on considerable experiments compared w
 The overall performances of DocGCN compared to the baselines on test set in Precision rate (%), Recall rate (%) and F1 score (%). The second best is underlined. Our DocGCN can achieve highest performance among all benchmark datasets and evaluation metrics. 
 
 ## Case Study
+We visualized the predicted results from DocGCN and compared with Top-3 baseline models for each dataset. Here is an example on PubLayNet Dataset. 
+<p align="center"><img src="figures/doc_gcn_main_results.png" width="450" /></p>
 
