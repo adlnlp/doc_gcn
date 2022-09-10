@@ -31,6 +31,6 @@ After get the enhance the feature representations, we feed them into [our model]
 
 ## Evaluation Results
 DocGCN can achieve SoTA performance based on considerable experiments compared with other baselines. Here we just show the overall performance on three benchmark datasets, more results analysis and ablation studies can be found in Section 5 and Appendix A of our [paper](https://arxiv.org/abs/2208.10970) 
-
+<p align="center"><img src="figures/doc_gcn_main_results.png" width="750" /></p>
 ## Case Study
 
