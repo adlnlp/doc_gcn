@@ -37,5 +37,5 @@ The overall performances of DocGCN compared to the baselines on test set in Prec
 
 ## Case Study
 We visualized the predicted results from DocGCN and compared with Top-3 baseline models for each dataset. Here is an example on PubLayNet Dataset. 
-<p align="center"><img src="figures/doc_gcn_main_results.png" width="450" /></p>
+<p align="center"><img src="figures/publaynet_case_study.png" width="450" /></p>
 
