@@ -19,7 +19,7 @@ We provide a [tutorial](https://colab.research.google.com/drive/1nyP2Ch8CzkKhzN_
 We use GCNs to enhance the proposed four aspect feature representations: Appearance, Density, Semantic and Syntactic. Those GCNs have the [same architecture](https://github.com/adlnlp/doc_gcn/blob/main/gcns/gnn_model_structure.py) but different node and edge representations. We generally divided into two types based on distinct edge representations：
 
 ### Appearance and Density Graphs (Gap-distance Weighted)
-The first type is gap distance based of including apprearance and density graphs of which edge features is the inverse of the nearest-top k segments. Node features of this type are visual and density features of each segment, repectively. 
+The first type is gap distance based of including apprearance and density graphs of which edge features is the inverse of the nearest-top k segments. Node features of this type are visual and density features of each segment, repectively.  Please refer this [ipybn notebook](https://colab.research.google.com/drive/1iVVpMoHgabLnV24mXgKqIfMqwLe_fAkf#scrollTo=qR_ykdhacGeo) to check how it works on FUNSD dataset. 
 <p align="center"><img src="figures/syn_sem_graph.png" width="650" /></p>
 
 ### Semantic and Syntactic Graphs (Parent-Child based)
