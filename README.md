@@ -23,19 +23,19 @@ The first type is gap distance based of including apprearance and density graphs
 <p align="center"><img src="figures/syn_sem_graph.png" width="650" /></p>
 
 ### Semantic and Syntactic Graphs (Parent-Child based)
-Another type is the parent-child relation based (see [example](https://colab.research.google.com/drive/1iVtiGn6UlOAbNsZcpYK8J7tjUaENJ3_I#scrollTo=8U8p1tSiwIYR) on FUNSD dataset). If two segments have parent-child relation, the edge value is set to be 1, otherwise 0. The graph construction workflow can be found in below graphs. More detailed information can be found in our paper and [appendix](). 
+Another type is the parent-child relation based (see [example](https://colab.research.google.com/drive/1iVtiGn6UlOAbNsZcpYK8J7tjUaENJ3_I#scrollTo=8U8p1tSiwIYR) on FUNSD dataset). If two segments have parent-child relation, the edge value is set to be 1, otherwise 0. The graph construction workflow can be found in below graphs. More detailed information can be found in our paper and [appendix](https://github.com/adlnlp/doc_gcn/blob/main/appendix/DocGCN_Appendix.pdf). 
 <p align="center"><img src="figures/semantic_syntactic_drawing.png" width="650" /></p>
 
 ## Classifier
 After get the enhance the feature representations, we feed them into [our model]() for training and testing. We also provide an [ipynb notebook](https://colab.research.google.com/drive/1FMSKWDok9eHNZXSkSAMJDpjijUgB-lvj) to show how it works on FUNSD dataset. Please refer DocGCN paper to get more detailed description about our classifier.
 
 ## Evaluation Results
-DocGCN can achieve SoTA performance based on considerable experiments compared with other baselines. Here we just show the overall performance on three benchmark datasets, more results analysis and ablation studies can be found in Section 5 and Appendix A of our [paper](https://arxiv.org/abs/2208.10970) 
+DocGCN can achieve SoTA performance based on considerable experiments compared with other baselines. Here we just show the overall performance on three benchmark datasets, more results analysis and ablation studies can be found in Section 5 of our [paper](https://arxiv.org/abs/2208.10970) 
 <p align="center"><img src="figures/doc_gcn_main_results.png" width="450" /></p>
 
 The overall performances of DocGCN compared to the baselines on test set in Precision rate (%), Recall rate (%) and F1 score (%). The second best is underlined. Our DocGCN can achieve highest performance among all benchmark datasets and evaluation metrics. 
 
 ## Case Study
-We visualized the predicted results from DocGCN and compared with Top-3 baseline models for each dataset. Here is an example on PubLayNet Dataset. Below figure shows RoBERTa and Faster-RCNN have wrongly recognised a Text into List, whereas our Doc-GCN has accurately recognized all components. This is because by simply considering the semantic or visual information, it is hard to distinguish the List and Text, indicating the importance of capturing the mutli-aspect features and structural relationships between layout components for the better performance. More case studies can be found in Appendix D of DocGCN paper.
+We visualized the predicted results from DocGCN and compared with Top-3 baseline models for each dataset. Here is an example on PubLayNet Dataset. Below figure shows RoBERTa and Faster-RCNN have wrongly recognised a Text into List, whereas our Doc-GCN has accurately recognized all components. This is because by simply considering the semantic or visual information, it is hard to distinguish the List and Text, indicating the importance of capturing the mutli-aspect features and structural relationships between layout components for the better performance. More case studies can be found in [Appendix B](https://github.com/adlnlp/doc_gcn/blob/main/appendix/DocGCN_Appendix.pdf) of DocGCN paper.
 <p align="center"><img src="figures/publaynet_case_study.png" width="600" /></p>
 
